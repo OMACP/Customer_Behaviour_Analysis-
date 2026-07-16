@@ -49,6 +49,11 @@ Full queries: customer_project_sql.sql
 
 PageKey InsightsOverviewGender split (68% M / 32% F), category revenue (Clothing 44.7%), seasonal customer trendsDemographicsAvg age 44, 27% subscribed, gender vs category preference, location-wise countsProducts25 unique items, size/color distribution, top 10 items by purchase countPurchase Behavior97.87% repeat customers, payment method split, shipping type vs categoryDiscounts & Promotions42.65% of revenue from discounted orders, promo usage by season
 
+<img width="1236" height="738" alt="Screenshot 2026-07-16 135310" src="https://github.com/user-attachments/assets/4c397be3-2089-48f3-ae26-1c69d61ce219" />
+<img width="1302" height="736" alt="Screenshot 2026-07-16 135347" src="https://github.com/user-attachments/assets/b77488bc-a012-4d4a-b449-ebdbc9524444" />
+<img width="1301" height="732" alt="Screenshot 2026-07-16 135330" src="https://github.com/user-attachments/assets/6ebd34db-1ebe-4012-be7b-ac99f1c40a42" />
+
+
 🛠️ Tools Used
 
 Python (pandas) · SQL Server · SQLAlchemy · Power BI · DAX · Power Query
