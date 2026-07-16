@@ -53,7 +53,12 @@ Full queries: [`customer_project_sql.sql`](./customer_project_sql.sql)
 | **Discounts & Promotions** | 42.65% of revenue from discounted orders, promo usage by season |
 
 
+## 📁 Files
 
+- `customer_shopping_behavior.csv` — raw dataset
+- `customerbehaviour.ipynb` — data cleaning & feature engineering notebook
+- `customer_project_sql.sql` — SQL analysis queries
+- Dashboard screenshots — `/screenshots`
 
 
 
