@@ -52,6 +52,9 @@ PageKey InsightsOverviewGender split (68% M / 32% F), category revenue (Clothing
 <img width="1236" height="738" alt="Screenshot 2026-07-16 135310" src="https://github.com/user-attachments/assets/4c397be3-2089-48f3-ae26-1c69d61ce219" />
 <img width="1302" height="736" alt="Screenshot 2026-07-16 135347" src="https://github.com/user-attachments/assets/b77488bc-a012-4d4a-b449-ebdbc9524444" />
 <img width="1301" height="732" alt="Screenshot 2026-07-16 135330" src="https://github.com/user-attachments/assets/6ebd34db-1ebe-4012-be7b-ac99f1c40a42" />
+<img width="1101" height="731" alt="Screenshot 2026-07-16 135425" src="https://github.com/user-attachments/assets/5a820c45-be96-4f3e-9f55-2bf6d9726e0e" />
+<img width="1220" height="737" alt="Screenshot 2026-07-16 135405" src="https://github.com/user-attachments/assets/d52a9abc-bbd1-4160-ac6d-59e454391b25" />
+
 
 
 🛠️ Tools Used
