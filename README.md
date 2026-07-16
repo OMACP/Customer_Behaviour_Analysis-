@@ -2,11 +2,17 @@ Customer Shopping Behavior Analysis
 
 An end-to-end retail analytics project analyzing customer shopping behavior using Python, SQL Server, and Power BI — covering data cleaning, feature engineering, SQL-based business analysis, and an interactive 5-page dashboard.
 
+🛠️ Tools Used
+
+Python (pandas) · SQL Server · SQLAlchemy · Power BI · DAX · Power Query
+
+
 📊 Dashboard Preview
 
 The Power BI dashboard includes 5 pages: Overview, Demographics, Products & Category, Purchase Behavior, and Discounts & Promotions.
 
 Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.75 avg rating | 97.87% repeat customer rate
+
 
 🗂️ Dataset
 
@@ -45,6 +51,7 @@ Revenue contribution by age group
 
 Full queries: customer_project_sql.sql
 
+
 📈 Power BI Dashboard
 
 
@@ -57,6 +64,4 @@ Full queries: customer_project_sql.sql
 
 
 
-🛠️ Tools Used
 
-Python (pandas) · SQL Server · SQLAlchemy · Power BI · DAX · Power Query
