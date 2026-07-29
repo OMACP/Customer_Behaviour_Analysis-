@@ -40,7 +40,7 @@ Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.
 9. Relationship between repeat purchases and subscription status
 10. Revenue contribution by age group
 
-Full queries: [`customer_project_sql.sql`]([./customer_project_sql.sql](https://github.com/OMACP/Customer_Behaviour_Analysis-/blob/main/customer%20project%20sql.sql))
+Full queries: [`customer_project_sql.sql`]([./customer_project_sql.sql])
 
 ## 📈 Power BI Dashboard
 
