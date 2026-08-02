@@ -2,24 +2,6 @@
 
 An end-to-end retail analytics project analyzing customer shopping behavior using **Python**, **SQL Server**, and **Power BI** — covering data cleaning, feature engineering, SQL-based business analysis, and an interactive 5-page dashboard.
 
-## 📊 Dashboard Preview
-
-The Power BI dashboard includes 5 pages: **Overview**, **Demographics**, **Products & Category**, **Purchase Behavior**, and **Discounts & Promotions**.
-
-Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.75 avg rating | 97.87% repeat customer rate
-
-| Overview | Demographics |
-|---|---|
-| ![Overview](./Dashboard%20Screenshots/Overview.png) | ![Demographics](./Dashboard%20Screenshots/Demographic.png) |
-
-| Products & Category | Purchase Behavior |
-|---|---|
-| ![Products](./Dashboard%20Screenshots/Products_and_Category.png) | ![Purchase Behavior](./Dashboard%20Screenshots/Purchase_Behavior.png) |
-
-| Discounts & Promotions |
-|---|
-| ![Discounts](./Dashboard%20Screenshots/Discounts_and_Promotions.png) |
-
 ## 🗂️ Dataset
 
 - 3,900 rows × 18 columns
@@ -51,6 +33,25 @@ Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.
 10. Revenue contribution by age group
 
 Full queries: [`Business Insight Questions/customer project sql.sql`](./Business%20Insight%20Questions/customer%20project%20sql.sql)
+
+## 📊 Dashboard Preview
+
+The Power BI dashboard includes 5 pages: **Overview**, **Demographics**, **Products & Category**, **Purchase Behavior**, and **Discounts & Promotions**.
+
+Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.75 avg rating | 97.87% repeat customer rate
+
+| Overview | Demographics |
+|---|---|
+| ![Overview](./Dashboard%20Screenshots/Overview.png) | ![Demographics](./Dashboard%20Screenshots/Demographic.png) |
+
+| Products & Category | Purchase Behavior |
+|---|---|
+| ![Products](./Dashboard%20Screenshots/Products_and_Category.png) | ![Purchase Behavior](./Dashboard%20Screenshots/Purchase_Behavior.png) |
+
+| Discounts & Promotions |
+|---|
+| ![Discounts](./Dashboard%20Screenshots/Discounts_and_Promotions.png) |
+
 
 ## 📈 Power BI Dashboard
 
