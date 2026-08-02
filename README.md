@@ -2,20 +2,29 @@
 
 An end-to-end retail analytics project analyzing customer shopping behavior using **Python**, **SQL Server**, and **Power BI** — covering data cleaning, feature engineering, SQL-based business analysis, and an interactive 5-page dashboard.
 
-## 🛠️ Tools Used
-
-`Python (pandas)` · `SQL Server` · `SQLAlchemy` · `Power BI` · `DAX` · `Power Query`
-
 ## 📊 Dashboard Preview
 
 The Power BI dashboard includes 5 pages: **Overview**, **Demographics**, **Products & Category**, **Purchase Behavior**, and **Discounts & Promotions**.
 
 Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.75 avg rating | 97.87% repeat customer rate
 
+| Overview | Demographics |
+|---|---|
+| ![Overview](./Dashboard%20Screenshots/Overview.png) | ![Demographics](./Dashboard%20Screenshots/Demographic.png) |
+
+| Products & Category | Purchase Behavior |
+|---|---|
+| ![Products](./Dashboard%20Screenshots/Products_and_Category.png) | ![Purchase Behavior](./Dashboard%20Screenshots/Purchase_Behavior.png) |
+
+| Discounts & Promotions |
+|---|
+| ![Discounts](./Dashboard%20Screenshots/Discounts_and_Promotions.png) |
+
 ## 🗂️ Dataset
 
 - 3,900 rows × 18 columns
 - Fields: Customer ID, Age, Gender, Item Purchased, Category, Purchase Amount, Location, Size, Color, Season, Review Rating, Subscription Status, Shipping Type, Discount Applied, Promo Code Used, Previous Purchases, Payment Method, Frequency of Purchases
+- File: [`Dataset/customer_shopping_behavior.csv`](./Dataset/customer_shopping_behavior.csv)
 
 ## 🧹 Data Cleaning & Feature Engineering (Python / pandas)
 
@@ -25,6 +34,7 @@ Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.
 - Engineered `purchase_frequency_days` by mapping purchase frequency labels (Weekly, Monthly, Quarterly, etc.) to numeric day intervals
 - Dropped redundant `promo_code_used` column
 - Loaded the cleaned DataFrame into SQL Server using SQLAlchemy + pyodbc
+- Notebook: [`Cleaning Dataset/customerbehaviour.ipynb`](./Cleaning%20Dataset/customerbehaviour.ipynb)
 
 ## 🗃️ SQL Analysis
 
@@ -40,7 +50,7 @@ Key metrics: 3,900 customers | $233.08K total revenue | $59.76 avg purchase | 3.
 9. Relationship between repeat purchases and subscription status
 10. Revenue contribution by age group
 
-Full queries: [`customer_project_sql.sql`]([./customer_project_sql.sql])
+Full queries: [`Business Insight Questions/customer project sql.sql`](./Business%20Insight%20Questions/customer%20project%20sql.sql)
 
 ## 📈 Power BI Dashboard
 
@@ -52,13 +62,35 @@ Full queries: [`customer_project_sql.sql`]([./customer_project_sql.sql])
 | **Purchase Behavior** | 97.87% repeat customers, payment method split, shipping type vs category |
 | **Discounts & Promotions** | 42.65% of revenue from discounted orders, promo usage by season |
 
+Dashboard file: [`Dashboard/Customer_behaviorial_analysis.pbix`](./Dashboard/Customer_behaviorial_analysis.pbix)
 
-## 📁 Files
+## 💡 Key Insight
 
-- `customer_shopping_behavior.csv` — raw dataset
-- `customerbehaviour.ipynb` — data cleaning & feature engineering notebook
-- `customer_project_sql.sql` — SQL analysis queries
-- Dashboard screenshots — `/screenshots`
+Clothing drives 44.7% of total revenue despite only 32% of customers being female, and 42.65% of revenue comes from discounted orders — suggesting an opportunity for targeted gender-based marketing and a review of discount dependency.
+
+## 🛠️ Tools Used
+
+`Python (pandas)` · `SQL Server` · `SQLAlchemy` · `Power BI` · `DAX` · `Power Query`
+
+## 📁 Repository Structure
+
+```
+├── Dataset/
+│   └── customer_shopping_behavior.csv
+├── Cleaning Dataset/
+│   └── customerbehaviour.ipynb
+├── Business Insight Questions/
+│   └── customer project sql.sql
+├── Dashboard/
+│   └── Customer_behaviorial_analysis.pbix
+├── Dashboard Screenshots/
+│   ├── Overview.png
+│   ├── Demographic.png
+│   ├── Products_and_Category.png
+│   ├── Purchase_Behavior.png
+│   └── Discounts_and_Promotions.png
+└── README.md
+```
 
 ## How to Run
 
